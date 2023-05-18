@@ -159,14 +159,21 @@ body {
 /* Header 1 */
 
 .hero {
+	max-width: 1440px;
+	height: 600px;
 	background-color: var(--title-text-color);
 	padding-top: 188px;
 	padding-bottom: 188px;
+	margin: 0 auto;
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)),
+		url("../images/people-office\ 1\ \(1\).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 /* .hero-container {
-	padding-top: 188px;
-	padding-bottom: 188px;
+	background-image: url("../images/people-office\ 1\ \(1\).jpg");
 } */
 
 .hero-title {
@@ -277,6 +284,16 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--secondary-text-color);
+}
+
+.svg-spdt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 112px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	background-color: var(--color-text-p);
 }
 
 /* Header 2 */
