@@ -387,7 +387,71 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.02em;
+	margin-bottom: 8px;
 	color: var(--secondary-text-color);
+}
+
+.s-networks-footer {
+	display: flex;
+	gap: 16px;
+	cursor: pointer;
+}
+
+.social-networks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--iris-web);
+}
+.social-networks:hover,
+.social-networks:focus {
+	background-color: var(--ocean-color);
+}
+
+.customers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 168px;
+	height: 88px;
+	box-sizing: border-box;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+}
+
+.customers-section {
+	padding: 120px 0;
+}
+
+.customers-cont {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.customers-h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 72px;
+	gap: 24px;
+
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--title-text-color);
+}
+
+.customers-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	cursor: pointer;
 }
 
 .footer {
@@ -395,6 +459,15 @@ body {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+
+.footer-container {
+	display: flex;
+	align-items: baseline;
+}
+
+/* .footer-container2 {
+	margin-right: 120px;
+} */
 
 .footerlg {
 	display: inline-block;
@@ -421,15 +494,35 @@ body {
 }
 
 .footer-description {
+	display: flex;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #f4f4fd;
+	color: var(--white-kolor);
 	/* розмітка */
-	display: flex;
+	margin-top: 0;
+	margin-bottom: 0;
 	max-width: 264px;
+}
+
+.social-footer {
+	color: var(--white-kolor);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	margin-bottom: 16px;
+}
+
+.s-networks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	cursor: pointer;
 }
 
 .section-portfolio {
