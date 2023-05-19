@@ -414,7 +414,7 @@ body {
 }
 .social-networks:hover,
 .social-networks:focus {
-	background-color: var(--ocean-color);
+	background-color: #404bbf;
 }
 .socialnetworks-icon {
 	fill: var(--icona-fill);
@@ -438,11 +438,17 @@ body {
 }
 .customers-link:hover,
 .customers-link:focus {
-	border-color: #404bbf;
+	border-color: var(--hover-focus);
+	color: var(--hover-focus);
 }
 
 .customers-icon {
 	fill: currentColor;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+	fill: var(--hover-focus);
 }
 
 .customers-section {
@@ -628,6 +634,15 @@ body {
 	margin-bottom: 8px;
 }
 
+.portfolio-link {
+	display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+	box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+		0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .social-networks:hover,
 .social-networks:focus {
 	background-color: #31d0aa;
